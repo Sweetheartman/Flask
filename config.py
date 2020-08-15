@@ -19,7 +19,6 @@ class Config(object):
 
     SQLALCHEMY_DATABASE_URI = '{}+{}://{}:{}@{}:{}/{}?charset=utf8'.format(DIALECT,DRIVER,USERNAME,PASSWORD,HOST,PORT,DATABASE)
 
-     # SQLALCHEMY_DATABASE_URI = "mysql+mysqldb://root:idealwifi2020@139.9.128.8:13306/paperreview"
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
     # 数据库池的大小。 默认与数据库引擎的值相同 (通常为 5)
