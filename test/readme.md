@@ -1,0 +1,1 @@
+flask-sqlacodegen mysql://root:idealwifi2020@139.9.128.8:3306/paperreview?charset=utf8 --tables secretary_secretaryInfo --outfile "secretaryModel.py"  --flask

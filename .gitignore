@@ -1,0 +1,12 @@
+.idea/
+venv/
+logs/log
+logs/
+__pycache__
+*/__pycache__/
+*.jpg
+*.png
+app/static/files/paper/
+app/static/files/
+app/api_1_0/teachers/mytest.py
+mytest.py
